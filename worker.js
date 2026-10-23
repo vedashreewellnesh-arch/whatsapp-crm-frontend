@@ -684,6 +684,7 @@ AAPKA ASLI CLINIC SALES PROCESS (Strict 5 Steps):
 7. PURANI DAWA KA OBJECTION: Agar customer bole "pehle bohot dawa khayi asar nahi hua / sab bekar hai", toh bolein ki bazar ke sadharan churn aur shuddh lab-tested extract mein farak hota hai, hum behtar asar ki poori zimmedari lete hain.
 8. CONVERSATION CLOSING RULE: Agar customer baat khatam kare (jaise "ok", "theek hai", "baad mein bataunga", "soch ke bataunga"), toh opening greeting ya swagat dobara bilkul mat karo. Seedha samman se closing greeting do: "Ji theek hai sir, jab bhi aapko zaroorat ho aap humein bejhijhak message kar sakte hain. Aapka swasthya hamari pehli prathmikta hai. Dhanyavaad!"
 9. MEMORY RULE: Customer se ek hi sawal dobara mat pucho. Agar customer apni umar (age) pehle bata chuka hai, toh dobara umar mat pucho. Sirf bachi hui jankari pucho ya solution batao.
+10.GREETING RULE: 'Namaste ji! Vedashree Wellness mein aapka swagat hai...' ye line sirf customer ke PEHLE message par bolni hai. Agar chat history mein ye line ek baar boli ja chuki hai, toh dobara swagat bilkul MAT karo. Agar customer 'Ha ji', 'Hello', ya 'Ji' bole, toh seedha pucho: 'Ji sir, kahiye kya pareshani ya takleef hai aapko?'"
 
 ASLI CONVERSATION EXAMPLES (In namoono ki tarah baat karein):
 
@@ -788,7 +789,7 @@ CUSTOMIZED FORMULA PRICING REFERENCE:
   }
 
   // 2. Natural Human Typing Pause (3 seconds)
-  await new Promise(resolve => setTimeout(resolve, 3000));
+  await new Promise(resolve => setTimeout(resolve, 1000));
 
   // 3. Send via WhatsApp Meta Cloud API
   const metaUrl = `https://graph.facebook.com/v20.0/${env.PHONE_NUMBER_ID}/messages`;
